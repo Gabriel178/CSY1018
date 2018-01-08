@@ -1,8 +1,8 @@
 body{
-  font: 15px/1.5 Lucida, Helvetica, sans-serif;
+  font: 15px/1.5 Lucida, Arial, sans-serif;
   padding:0;
   margin: 0;
-  background-color:#F3752B;
+  background-color:#9f00a5;
  }
 
  /* Global */
@@ -19,35 +19,35 @@ body{
 
  /*Header **/
  header{
-   background:#35424a
+   background:#0a090a
 
 
 
 }
 h1{
   color:#ffffff;
-  padding-top:40px;
-  min-height:70px;
+  padding-top:41px;
+  min-height:71px;
   border-bottom:#ffffff 3px solid;
   margin: auto;
 }
 h2{
-  font-size: 17px;
-  font-weight: 400px;
-  color: #000000;
+  font-size: 22px;
+  font-weight: 398px;
+  color: #ffffff;
 }
 header a{
   color:#ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 398px;
 }
 
 header li{
-  float: left;
-  display:inline;
-  padding: 0 20px 0 20px;
+  display: inline;
+  padding: 0 21px 0 21px;
+  
 }
 
 header #branding{
@@ -58,23 +58,23 @@ header #branding h1{
 }
 header nav{
   float: right;
-  margin-top:10px;
+  margin-top:11px;
 
 }
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#9f00a5;
   font-weight: bold;
-
-
+  width: 100%;
 }
 header a:hover{
-  color: #dddddd;
+  color: #db0a0a;
   font-weight: bold;
+  width: 100%;
 }
 
 /* coolors */
 #coolors{
-  min-height:400px;
+  min-height:398px;
   background:#FDE9FF;
   text-align: center;
   color: white
@@ -85,12 +85,16 @@ body{
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
+  width: 100%;
 
 }
 
 
 body{
-font-size: 20px;
+font-size: 21px;
+color: white;
+width: 100%
+
 
 
 }
